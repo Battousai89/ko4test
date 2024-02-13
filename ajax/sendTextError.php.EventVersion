@@ -1,0 +1,11 @@
+<?php
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+
+//Решение через событие, но такое почтовое событие надо создать в админке
+Event::send([
+    'EVENT_NAME' => 'TEXT_ERROR',
+    'LID'        => 's1',
+    'C_FIELDS'   => [
+         'TEXT' => $_POST['text'],
+    ],
+]);

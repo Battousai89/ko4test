@@ -61,28 +61,4 @@
 > 2. Запрос, который добавляет товар в корзину в указанном количестве (Используя метод Bitrix, который автоматически
 > проверяет на наличие такого товара в корзине и возможность покупки)
 
-<div class="footer">
-    <h4 class="autors">Created by <a class="links" href="https://t.me/Ko4CI">@Ko4CI</a></h4>
-</div>
-
-<style>
-    .footer {
-        margin-top: 100px;
-        position: relative;
-    }
-    .links {
-        color: white;
-        cursor: pointer;
-        animation: tags infinite 2s linear;
-    }
-    .autors {
-        font-size: 14px;
-        text-align: center;
-        font-weight: bold;
-        user-select: none;
-        animation: identifier infinite 2s ease-in-out;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-</style>
+<h4 class="autors">Created by <a class="links" href="https://t.me/Ko4CI">@Ko4CI</a></h4>
